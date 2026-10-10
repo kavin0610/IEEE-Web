@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Character - Personal Website</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #0b1020;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #121a30;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #67e8f9;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        nav a:hover {
+            color: #67e8f9;
+        }
+
+        section {
+            padding: 40px 10%;
+        }
+
+        h2 {
+            color: #67e8f9;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 70px 10%;
+            background-color: #121a30;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+        }
+
+        .card {
+            background-color: #121a30;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            color: #a78bfa;
+        }
+
+        footer {
+            background-color: #121a30;
+            text-align: center;
+            padding: 20px;
+            color: #b5bfd8;
+        }
+
+        button {
+            background-color: #67e8f9;
+            color: #0b1020;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #a78bfa;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>MY CHARACTER</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#strengths">Strengths</a>
+            <a href="#interests">Interests</a>
+            <a href="#goals">Goals</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Hello, I'm an ECE Student!</h1>
+        <p>
+            A curious mind with a passion for technology,
+            creativity, and continuous learning.
+        </p>
+        <button onclick="document.getElementById('about').scrollIntoView()">
+            Know More About Me
+        </button>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am an Electronics and Communication Engineering student
+            at KPRIET. I enjoy learning new things, exploring technology,
+            solving problems, and developing my skills.
+            I believe that success comes from hard work,
+            consistency, and a positive attitude.
+        </p>
+    </section>
+
+    <section id="strengths">
+        <h2>My Strengths</h2>
+
+        <div class="card">
+            <h3>Problem-Solving</h3>
+            <p>
+                I enjoy understanding problems and finding
+                practical solutions through logical thinking.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Curiosity</h3>
+            <p>
+                I am interested in learning new concepts,
+                exploring technology, and improving my knowledge.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Creativity</h3>
+            <p>
+                I like exploring new ideas and finding
+                creative ways to approach challenges.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Growth Mindset</h3>
+            <p>
+                I believe every experience is an opportunity
+                to learn, improve, and become a better person.
+            </p>
+        </div>
+    </section>
+
+    <section id="interests">
+        <h2>My Interests</h2>
+
+        <div class="card">
+            <h3>Technology and Engineering</h3>
+            <p>
+                I enjoy electronics, coding, innovative ideas,
+                and engineering projects.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Hackathons and Projects</h3>
+            <p>
+                I like developing ideas, preparing presentations,
+                and working on projects such as obstacle-alert systems.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Football and Gaming</h3>
+            <p>
+                Football and gaming interest me because they involve
+                strategy, competition, teamwork, and decision-making.
+            </p>
+        </div>
+    </section>
+
+    <section id="goals">
+        <h2>My Goals</h2>
+        <p>
+            My goal is to become a skilled engineer with strong
+            technical knowledge, creativity, and communication skills.
+            I want to participate in college projects and hackathons,
+            gain practical experience, and continue improving myself.
+        </p>
+    </section>
+
+    <section>
+        <h2>My Motto</h2>
+        <div class="card">
+            <p>
+                "Learn something new every day,
+                face challenges with confidence,
+                and never stop improving."
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>My Character | Personal Website</p>
+        <p>Designed using HTML and CSS</p>
+        <p>&copy; 2026</p>
+    </footer>
+
+</body>
+</html>
